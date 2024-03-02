@@ -21,7 +21,7 @@ public class ReplaceZeroToEnd {
                 int temp=arr[l];
                 arr[l]=arr[r];
                 arr[r]=temp;
-                while(arr[--r]==0);
+                //while(arr[--r]==0);
             }
             l++;
         }

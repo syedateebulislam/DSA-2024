@@ -3,7 +3,7 @@ package org.example.tree;
 
 import java.util.*;
 
-public class BTLeftView {
+public class BinaryTreeViews {
 
     static Scanner sc=null;
     public static void main(String[] args) {

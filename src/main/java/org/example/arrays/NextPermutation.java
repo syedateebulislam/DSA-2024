@@ -1,4 +1,4 @@
-package org.example.test;
+package org.example.arrays;
 
 import java.util.Arrays;
 
@@ -23,7 +23,6 @@ public class NextPermutation {
         for(int j=arr.length-1;j>index;j--){
             //System.out.println(arr[j]);
             if(arr[j]>arr[index]){
-                System.out.println(true);
                 int t=arr[j];
                 arr[j]=arr[index];
                 arr[index]=t;
