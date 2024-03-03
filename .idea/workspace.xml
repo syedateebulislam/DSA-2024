@@ -5,17 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f7c5490-836e-44ea-9ca4-9c493878353f" name="Changes" comment="DSA22feb24">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/searching/BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/searching/SortedRotatedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LinkedList/ReverseLinkList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/LinkedList/ReplaceZeroToEnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/LinkedList/ReplaceZeroToEnd.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/sorting/Try.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/test/KadanesAlgo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/arrays/KadanesAlgo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/test/NextPermutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/arrays/NextPermutation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/test/ThreeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/arrays/ThreeSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/test/ZerosAndOnes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/arrays/ZerosAndOnes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/tree/BTLeftView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/tree/BinaryTreeViews.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/sorting/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/sorting/QuickSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +24,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "syedateebulislam"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="90ca0c99-82de-402d-a84b-b12fd8dcdae2" />
+        <option name="url" value="https://github.com/syedateebulislam/DSA-2024" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
@@ -61,6 +68,7 @@
     "Application.NextPermutation.executor": "Run",
     "Application.QuickSort.executor": "Run",
     "Application.ReplaceZeroToEnd.executor": "Run",
+    "Application.ReverseLinkList.executor": "Run",
     "Application.SortedRotatedArray.executor": "Run",
     "Application.ThreeSum.executor": "Run",
     "Application.Try.executor": "Run",
@@ -82,7 +90,7 @@
       <recent name="org.example.searching" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SortedRotatedArray">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.searching.BinarySearch" />
       <module name="DSA-2024" />
@@ -109,8 +117,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReplaceZeroToEnd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.LinkedList.ReplaceZeroToEnd" />
+    <configuration name="ReverseLinkList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.LinkedList.ReverseLinkList" />
       <module name="DSA-2024" />
       <extension name="coverage">
         <pattern>
@@ -161,18 +169,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.BinarySearch" />
+      <item itemvalue="Application.ReverseLinkList" />
       <item itemvalue="Application.SortedRotatedArray" />
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.ReplaceZeroToEnd" />
       <item itemvalue="Application.ThreeSum" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.ReverseLinkList" />
         <item itemvalue="Application.SortedRotatedArray" />
         <item itemvalue="Application.BinarySearch" />
-        <item itemvalue="Application.Main" />
         <item itemvalue="Application.ThreeSum" />
-        <item itemvalue="Application.ReplaceZeroToEnd" />
       </list>
     </recent_temporary>
   </component>
@@ -200,8 +208,27 @@
       <option name="project" value="LOCAL" />
       <updated>1708628279613</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="DSA22feb24">
+      <option name="closed" value="true" />
+      <created>1709395804982</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1709395804982</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="DSA22feb24" />

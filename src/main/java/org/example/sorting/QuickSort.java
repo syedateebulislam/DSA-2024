@@ -3,7 +3,7 @@ package org.example.sorting;
 public class QuickSort {
 
     /*
-    // This function takes last element as pivot,
+    // This function takes first element as pivot,
     // places the pivot element at its correct position
     // in sorted array, and places all smaller to left
     // of pivot and all greater elements to right of pivot
