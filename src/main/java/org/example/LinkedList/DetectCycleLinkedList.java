@@ -1,6 +1,5 @@
 package org.example.LinkedList;
 
-import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -15,7 +14,7 @@ class Node{
     }
 }
 
-public class LinkedList {
+public class DetectCycleLinkedList {
 
     public static void main(String[] args) {
 

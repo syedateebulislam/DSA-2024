@@ -52,8 +52,6 @@ public class KadanesAlgo {
         int currSum=0;
         int maxSum=0;
 
-        List<Integer> l1 = new ArrayList<>();
-
         for(int i=0;i<arr.length-1;i++){
             if(currSum+arr[i]>=arr[i]){
                 currSum = currSum+arr[i];

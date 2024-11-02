@@ -1,10 +1,4 @@
-package org.example.LinkedList;
-
-import java.lang.reflect.Array;
-import java.util.Arrays;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Queue;
+package org.example.arrays;
 
 public class ReplaceZeroToEnd {
 

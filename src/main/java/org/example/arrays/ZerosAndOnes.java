@@ -14,7 +14,7 @@ public class ZerosAndOnes {
             while(arr[left]==0 && left < right){
                 left++;
             }
-            while (arr[right]==1 && right>left){
+            while (arr[right]==1 && right > left){
                 right--;
             }
             if(left<right){
