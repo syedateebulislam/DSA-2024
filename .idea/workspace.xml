@@ -4,21 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f7c5490-836e-44ea-9ca4-9c493878353f" name="Changes" comment="revLinkedList">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/arrays/RestoreString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/java8/StreamQues.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/strings/DetectAnagram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/test/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="6f7c5490-836e-44ea-9ca4-9c493878353f" name="Changes" comment="leetcode latest que commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/java8/HashMapCustomKeyClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/java8/ImmutableTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/java8/SingletonTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/LinkedList/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/LinkedList/DetectCycleLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/LinkedList/ReplaceZeroToEnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/arrays/ReplaceZeroToEnd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/arrays/KadanesAlgo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/arrays/KadanesAlgo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/arrays/ThreeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/arrays/ThreeSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/arrays/ZerosAndOnes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/arrays/ZerosAndOnes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/tree/BinaryTreeCreation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/tree/BinaryTreeCreation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/LinkedList/DetectCycleLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dsa/LinkedList/DetectCycleLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/LinkedList/ReverseLinkList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dsa/LinkedList/ReverseLinkList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/arrays/KadanesAlgo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dsa/arrays/KadanesAlgo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/arrays/NextPermutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dsa/arrays/NextPermutation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/arrays/ReplaceZeroToEnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dsa/arrays/ReplaceZeroToEnd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/arrays/RestoreString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dsa/arrays/RestoreString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/arrays/ThreeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dsa/arrays/ThreeSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/arrays/ZerosAndOnes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dsa/arrays/ZerosAndOnes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/searching/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dsa/searching/BinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/searching/SortedRotatedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dsa/searching/SortedRotatedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/sorting/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dsa/sorting/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/sorting/MergeSortTry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dsa/sorting/MergeSortTry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/sorting/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dsa/sorting/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/strings/DetectAnagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dsa/strings/DetectAnagram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/test/Calculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/tree/BinaryTreeCreation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dsa/tree/BinaryTreeCreation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/tree/BinaryTreeViews.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dsa/tree/BinaryTreeViews.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,8 +81,11 @@
     "Application.BinaryTreeCreation.executor": "Run",
     "Application.BinaryTreeViews.executor": "Run",
     "Application.DetectAnagram.executor": "Run",
+    "Application.EmployeeMapExample.executor": "Run",
     "Application.GFG.executor": "Run",
     "Application.GfgMergeSort.executor": "Run",
+    "Application.HashMapCustomKeyClass.executor": "Run",
+    "Application.ImmutableTest.executor": "Run",
     "Application.KadanesAlgo.executor": "Run",
     "Application.LinkedList.executor": "Run",
     "Application.Main.executor": "Run",
@@ -87,6 +97,7 @@
     "Application.RestoreString.executor": "Run",
     "Application.ReverseLinkList.executor": "Run",
     "Application.Runner.executor": "Run",
+    "Application.SingletonTest.executor": "Run",
     "Application.SortedRotatedArray.executor": "Run",
     "Application.StreamQues.executor": "Run",
     "Application.TestadilApplication.executor": "Run",
@@ -103,24 +114,27 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/syeda/Desktop/demo/testadil/testadil",
+    "last_opened_file_path": "C:/Users/syeda/Desktop/Ateeb/Code-Tech-and-Tools/Workspaces/Java-Workspace/IntelliJ-Worksapce/DSA-2024/src/main/java/org/example/dsa",
     "onboarding.tips.debug.path": "C:/Users/syeda/Desktop/Ateeb/Code-Tech-and-Tools/Workspaces/Java-Workspace/IntelliJ-Worksapce/DSA-2024/src/main/java/org/example/Main.java",
     "settings.editor.selected.configurable": "advanced.settings"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\syeda\Desktop\Ateeb\Code-Tech-and-Tools\Workspaces\Java-Workspace\IntelliJ-Worksapce\DSA-2024\src\main\java\org\example\dsa" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.testadil.testadil.controller" />
       <recent name="org.example.searching" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RestoreString">
-    <configuration name="DetectAnagram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.strings.DetectAnagram" />
+  <component name="RunManager" selected="Application.HashMapCustomKeyClass">
+    <configuration name="EmployeeMapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.java8.EmployeeMapExample" />
       <module name="DSA-2024" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.strings.*" />
+          <option name="PATTERN" value="org.example.java8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,12 +142,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KadanesAlgo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.arrays.KadanesAlgo" />
+    <configuration name="HashMapCustomKeyClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.java8.HashMapCustomKeyClass" />
       <module name="DSA-2024" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.arrays.*" />
+          <option name="PATTERN" value="org.example.java8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,12 +155,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+    <configuration name="ImmutableTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.java8.ImmutableTest" />
       <module name="DSA-2024" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.java8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -167,8 +181,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamQues" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.java8.StreamQues" />
+    <configuration name="SingletonTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.java8.SingletonTest" />
       <module name="DSA-2024" />
       <extension name="coverage">
         <pattern>
@@ -181,19 +195,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.EmployeeMapExample" />
+      <item itemvalue="Application.HashMapCustomKeyClass" />
+      <item itemvalue="Application.ImmutableTest" />
+      <item itemvalue="Application.SingletonTest" />
       <item itemvalue="Application.RestoreString" />
-      <item itemvalue="Application.DetectAnagram" />
-      <item itemvalue="Application.StreamQues" />
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.KadanesAlgo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HashMapCustomKeyClass" />
+        <item itemvalue="Application.EmployeeMapExample" />
+        <item itemvalue="Application.ImmutableTest" />
+        <item itemvalue="Application.SingletonTest" />
         <item itemvalue="Application.RestoreString" />
-        <item itemvalue="Application.StreamQues" />
-        <item itemvalue="Application.DetectAnagram" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.KadanesAlgo" />
       </list>
     </recent_temporary>
   </component>
@@ -230,7 +244,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709482960688</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="leetcode latest que commit">
+      <option name="closed" value="true" />
+      <created>1730566412055</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1730566412055</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -255,13 +277,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="DSA22feb24" />
     <MESSAGE value="revLinkedList" />
-    <option name="LAST_COMMIT_MESSAGE" value="revLinkedList" />
+    <MESSAGE value="leetcode latest que commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="leetcode latest que commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/searching/BinarySearch.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/dsa/searching/BinarySearch.java</url>
           <line>29</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>

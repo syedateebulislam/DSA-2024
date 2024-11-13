@@ -1,4 +1,4 @@
-package org.example.sorting;
+package org.example.dsa.sorting;
 
 public class QuickSort {
 

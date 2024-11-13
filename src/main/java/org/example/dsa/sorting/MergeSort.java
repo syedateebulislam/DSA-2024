@@ -1,5 +1,4 @@
-package org.example.sorting;// Java program for Merge Sort
-import java.io.*;
+package org.example.dsa.sorting;// Java program for Merge Sort
 
 class MergeSort {
     /*

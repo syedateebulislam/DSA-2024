@@ -1,4 +1,4 @@
-package org.example.LinkedList;
+package org.example.dsa.LinkedList;
 
 import java.util.HashSet;
 import java.util.Set;

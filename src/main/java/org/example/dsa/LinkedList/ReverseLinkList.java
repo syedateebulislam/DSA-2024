@@ -1,4 +1,4 @@
-package org.example.LinkedList;
+package org.example.dsa.LinkedList;
 
 
 public class ReverseLinkList {

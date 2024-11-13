@@ -1,4 +1,4 @@
-package org.example.searching;
+package org.example.dsa.searching;
 
 public class SortedRotatedArray {
 

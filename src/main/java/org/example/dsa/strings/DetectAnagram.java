@@ -1,4 +1,4 @@
-package org.example.strings;
+package org.example.dsa.strings;
 
 import java.util.*;
 

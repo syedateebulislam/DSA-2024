@@ -1,6 +1,4 @@
-package org.example.sorting;
-
-import java.util.Arrays;
+package org.example.dsa.sorting;
 
 public class MergeSortTry {
 
