@@ -4,28 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f7c5490-836e-44ea-9ca4-9c493878353f" name="Changes" comment="leetcode latest que commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/java8/HashMapCustomKeyClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/java8/ImmutableTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/java8/SingletonTest.java" afterDir="false" />
+    <list default="true" id="6f7c5490-836e-44ea-9ca4-9c493878353f" name="Changes" comment="refactored for interview pkg">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/java8/HashMapCustomKeyDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/java8/ImmutableExampleDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/java8/SingletonExampleDriver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/LinkedList/DetectCycleLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dsa/LinkedList/DetectCycleLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/LinkedList/ReverseLinkList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dsa/LinkedList/ReverseLinkList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/arrays/KadanesAlgo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dsa/arrays/KadanesAlgo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/arrays/NextPermutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dsa/arrays/NextPermutation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/arrays/ReplaceZeroToEnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dsa/arrays/ReplaceZeroToEnd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/arrays/RestoreString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dsa/arrays/RestoreString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/arrays/ThreeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dsa/arrays/ThreeSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/arrays/ZerosAndOnes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dsa/arrays/ZerosAndOnes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/searching/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dsa/searching/BinarySearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/searching/SortedRotatedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dsa/searching/SortedRotatedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/sorting/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dsa/sorting/MergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/sorting/MergeSortTry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dsa/sorting/MergeSortTry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/sorting/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dsa/sorting/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/strings/DetectAnagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dsa/strings/DetectAnagram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/test/Calculator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/tree/BinaryTreeCreation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dsa/tree/BinaryTreeCreation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/tree/BinaryTreeViews.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dsa/tree/BinaryTreeViews.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/java8/HashMapCustomKeyClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/java8/HashMapCustomEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/java8/ImmutableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/java8/ImmutableClockClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/java8/SingletonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/java8/SingletonThreadSafe.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +102,7 @@
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/syeda/Desktop/Ateeb/Code-Tech-and-Tools/Workspaces/Java-Workspace/IntelliJ-Worksapce/DSA-2024/src/main/java/org/example/dsa",
     "onboarding.tips.debug.path": "C:/Users/syeda/Desktop/Ateeb/Code-Tech-and-Tools/Workspaces/Java-Workspace/IntelliJ-Worksapce/DSA-2024/src/main/java/org/example/Main.java",
-    "settings.editor.selected.configurable": "advanced.settings"
+    "settings.editor.selected.configurable": "settings.sync"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -252,7 +238,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730566412055</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="refactored for interview pkg">
+      <option name="closed" value="true" />
+      <created>1731483463136</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1731483463136</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -278,7 +272,8 @@
     <MESSAGE value="DSA22feb24" />
     <MESSAGE value="revLinkedList" />
     <MESSAGE value="leetcode latest que commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="leetcode latest que commit" />
+    <MESSAGE value="refactored for interview pkg" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactored for interview pkg" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

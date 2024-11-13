@@ -1,24 +1,16 @@
 package org.example.java8;
 
-public class ImmutableTest {
-    public static void main(String[] args) {
 
-        ImmutableClock obj1 = new ImmutableClock("HMT","23:00");
-        System.out.println(obj1);
-
-    }
-
-}
 
 
 //1.final class
-final class ImmutableClock {
+public final class ImmutableClockClass {
 
     //2.private final variables
     final private String clockBrandName;
     final private String time;
 
-    public ImmutableClock(String clockBrandName, String time) {
+    public ImmutableClockClass(String clockBrandName, String time) {
         this.clockBrandName = clockBrandName;
         this.time = time;
     }
@@ -41,3 +33,4 @@ final class ImmutableClock {
                 '}';
     }
 }
+
