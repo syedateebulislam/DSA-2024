@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f7c5490-836e-44ea-9ca4-9c493878353f" name="Changes" comment="refactored for interview pkg">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/java8/SingletonEager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/java8/SingletonLazy.java" afterDir="false" />
+    <list default="true" id="6f7c5490-836e-44ea-9ca4-9c493878353f" name="Changes" comment="singleton for interview pkg">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/java8/LambdaDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/java8/LambdaExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/java8/ThreadByClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/java8/ThreadByIntf.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/java8/SingletonExampleDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/java8/SingletonExampleDriver.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +19,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -70,6 +72,7 @@
     "Application.HashMapCustomKeyClass.executor": "Run",
     "Application.ImmutableTest.executor": "Run",
     "Application.KadanesAlgo.executor": "Run",
+    "Application.LambdaDriver.executor": "Run",
     "Application.LinkedList.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MergeSort.executor": "Run",
@@ -84,6 +87,8 @@
     "Application.SortedRotatedArray.executor": "Run",
     "Application.StreamQues.executor": "Run",
     "Application.TestadilApplication.executor": "Run",
+    "Application.ThreadByClass.executor": "Run",
+    "Application.ThreadByIntf.executor": "Run",
     "Application.ThreeSum.executor": "Run",
     "Application.Try.executor": "Run",
     "Application.ZerosAndOnes.executor": "Run",
@@ -93,6 +98,7 @@
     "Maven.testadil [install].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
@@ -111,7 +117,7 @@
       <recent name="org.example.searching" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HashMapCustomKeyClass">
+  <component name="RunManager" selected="Application.ThreadByIntf">
     <configuration name="EmployeeMapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.java8.EmployeeMapExample" />
       <module name="DSA-2024" />
@@ -138,8 +144,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ImmutableTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.java8.ImmutableTest" />
+    <configuration name="LambdaDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.java8.LambdaDriver" />
       <module name="DSA-2024" />
       <extension name="coverage">
         <pattern>
@@ -151,12 +157,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RestoreString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.arrays.RestoreString" />
+    <configuration name="ThreadByClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.java8.ThreadByClass" />
       <module name="DSA-2024" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.arrays.*" />
+          <option name="PATTERN" value="org.example.java8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,8 +170,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingletonTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.java8.SingletonTest" />
+    <configuration name="ThreadByIntf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.java8.ThreadByIntf" />
       <module name="DSA-2024" />
       <extension name="coverage">
         <pattern>
@@ -178,19 +184,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.ThreadByClass" />
+      <item itemvalue="Application.ThreadByIntf" />
+      <item itemvalue="Application.LambdaDriver" />
       <item itemvalue="Application.EmployeeMapExample" />
       <item itemvalue="Application.HashMapCustomKeyClass" />
-      <item itemvalue="Application.ImmutableTest" />
-      <item itemvalue="Application.SingletonTest" />
-      <item itemvalue="Application.RestoreString" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreadByIntf" />
+        <item itemvalue="Application.ThreadByClass" />
+        <item itemvalue="Application.LambdaDriver" />
         <item itemvalue="Application.HashMapCustomKeyClass" />
         <item itemvalue="Application.EmployeeMapExample" />
-        <item itemvalue="Application.ImmutableTest" />
-        <item itemvalue="Application.SingletonTest" />
-        <item itemvalue="Application.RestoreString" />
       </list>
     </recent_temporary>
   </component>
@@ -259,7 +265,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731515335157</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="singleton for interview pkg">
+      <option name="closed" value="true" />
+      <created>1731516128292</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1731516128292</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -286,7 +300,8 @@
     <MESSAGE value="revLinkedList" />
     <MESSAGE value="leetcode latest que commit" />
     <MESSAGE value="refactored for interview pkg" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactored for interview pkg" />
+    <MESSAGE value="singleton for interview pkg" />
+    <option name="LAST_COMMIT_MESSAGE" value="singleton for interview pkg" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
