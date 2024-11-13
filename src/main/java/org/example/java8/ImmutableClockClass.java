@@ -24,13 +24,5 @@ public final class ImmutableClockClass {
         return time;
     }
 
-
-    @Override
-    public String toString() {
-        return "ImmutableClock{" +
-                "clockBrandName='" + clockBrandName + '\'' +
-                ", time='" + time + '\'' +", hashCode="+ this.hashCode()+
-                '}';
-    }
 }
 

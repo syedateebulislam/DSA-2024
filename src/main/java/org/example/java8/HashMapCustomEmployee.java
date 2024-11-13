@@ -34,13 +34,5 @@ public class HashMapCustomEmployee{
         return Objects.hash(this.getEmpId());
     }
 
-    @Override
-    public String toString() {
-        return "CustomMapEmployee{" +
-                "name='" + name + '\'' +
-                ", empId=" + empId +
-                '}';
-    }
-
 }
 
