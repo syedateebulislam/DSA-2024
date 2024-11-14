@@ -9,5 +9,6 @@ execute the child’s version by default.
 use super.methodName() from within the child class.
 
 4.When using a parent type reference pointing to a child object,
-overridden methods will call the child’s version due to Java’s dynamic dispatch system.
+overridden methods will call the child’s version due to Java’s dynamic
+dispatch system.
 

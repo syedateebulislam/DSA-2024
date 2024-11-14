@@ -1,6 +1,11 @@
 package org.example.java8;
 
 
+//ImmutableClass ->
+//1.final class
+//2.private final variables
+//3.only getters
+//4.return temp list from getters if any field is list/collection
 
 
 //1.final class
