@@ -1,0 +1,13 @@
+Summary->
+
+1.A child object can call parent methods directly because it inherits them.
+
+2.If a method is overridden in the child, calling it on the child object will
+execute the child’s version by default.
+
+3.To explicitly call the parent’s version of an overridden method,
+use super.methodName() from within the child class.
+
+4.When using a parent type reference pointing to a child object,
+overridden methods will call the child’s version due to Java’s dynamic dispatch system.
+
