@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f7c5490-836e-44ea-9ca4-9c493878353f" name="Changes" comment="More OOPS code">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/java8/ComparatorPractice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/java8/CustomException.java" afterDir="false" />
+    <list default="true" id="6f7c5490-836e-44ea-9ca4-9c493878353f" name="Changes" comment="latest commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/java8/HashMapCustomKeyDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/java8/HashMapCustomKeyDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/java8/StreamQues.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/java8/StreamQues.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/java8/oops/CustomException.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,60 +57,61 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.BTLeftView.executor": "Run",
-    "Application.BinarySearch.executor": "Run",
-    "Application.BinaryTreeCreation.executor": "Run",
-    "Application.BinaryTreeViews.executor": "Run",
-    "Application.DetectAnagram.executor": "Run",
-    "Application.EmployeeMapExample.executor": "Run",
-    "Application.GFG.executor": "Run",
-    "Application.GfgMergeSort.executor": "Run",
-    "Application.HashMapCustomKeyClass.executor": "Run",
-    "Application.HashMapCustomKeyDriver.executor": "Run",
-    "Application.ImmutableTest.executor": "Run",
-    "Application.Inheritance.executor": "Run",
-    "Application.KadanesAlgo.executor": "Run",
-    "Application.LambdaDriver.executor": "Run",
-    "Application.LinkedList.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.MergeSort.executor": "Run",
-    "Application.MergeSortTry.executor": "Run",
-    "Application.NextPermutation.executor": "Run",
-    "Application.Polymorphism_1.executor": "Run",
-    "Application.Polymorphism_2.executor": "Run",
-    "Application.QuickSort.executor": "Run",
-    "Application.ReplaceZeroToEnd.executor": "Run",
-    "Application.RestoreString.executor": "Run",
-    "Application.ReverseLinkList.executor": "Run",
-    "Application.Runner.executor": "Run",
-    "Application.SingletonTest.executor": "Run",
-    "Application.SortedRotatedArray.executor": "Run",
-    "Application.StreamQues.executor": "Run",
-    "Application.TestadilApplication.executor": "Run",
-    "Application.ThisKeyword.executor": "Run",
-    "Application.ThreadByClass.executor": "Run",
-    "Application.ThreadByIntf.executor": "Run",
-    "Application.ThreeSum.executor": "Run",
-    "Application.Try.executor": "Run",
-    "Application.ZerosAndOnes.executor": "Run",
-    "Application.org.example.sorting.MergeSort.executor": "Run",
-    "Maven.testadil [clean,install].executor": "Run",
-    "Maven.testadil [clean].executor": "Run",
-    "Maven.testadil [install].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/syeda/Desktop/Ateeb/Code-Tech-and-Tools/Workspaces/Java-Workspace/IntelliJ-Worksapce/DSA-2024/src/main/java/org/example/java8",
-    "onboarding.tips.debug.path": "C:/Users/syeda/Desktop/Ateeb/Code-Tech-and-Tools/Workspaces/Java-Workspace/IntelliJ-Worksapce/DSA-2024/src/main/java/org/example/Main.java",
-    "settings.editor.selected.configurable": "settings.sync"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.BTLeftView.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BinarySearch.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BinaryTreeCreation.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BinaryTreeViews.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ComparatorPractice.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DetectAnagram.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EmployeeMapExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GFG.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GfgMergeSort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HashMapCustomKeyClass.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HashMapCustomKeyDriver.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ImmutableTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Inheritance.executor&quot;: &quot;Run&quot;,
+    &quot;Application.KadanesAlgo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LambdaDriver.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LinkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MergeSort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MergeSortTry.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NextPermutation.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Polymorphism_1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Polymorphism_2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.QuickSort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReplaceZeroToEnd.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RestoreString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseLinkList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Runner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SingletonTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SortedRotatedArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StreamQues.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestadilApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThisKeyword.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadByClass.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadByIntf.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreeSum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Try.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ZerosAndOnes.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.example.sorting.MergeSort.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.testadil [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.testadil [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.testadil [install].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/syeda/Desktop/Ateeb/Code-Tech-and-Tools/Workspaces/Java-Workspace/IntelliJ-Worksapce/DSA-2024/src/main/java/org/example/java8&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/syeda/Desktop/Ateeb/Code-Tech-and-Tools/Workspaces/Java-Workspace/IntelliJ-Worksapce/DSA-2024/src/main/java/org/example/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\syeda\Desktop\Ateeb\Code-Tech-and-Tools\Workspaces\Java-Workspace\IntelliJ-Worksapce\DSA-2024\src\main\java\org\example\java8" />
@@ -124,9 +123,9 @@
       <recent name="org.example.searching" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HashMapCustomKeyDriver">
-    <configuration name="HashMapCustomKeyDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.java8.HashMapCustomKeyDriver" />
+  <component name="RunManager" selected="Application.ComparatorPractice">
+    <configuration name="ComparatorPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.java8.ComparatorPractice" />
       <module name="DSA-2024" />
       <extension name="coverage">
         <pattern>
@@ -138,12 +137,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Inheritance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.java8.oops.Inheritance" />
+    <configuration name="HashMapCustomKeyDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.java8.HashMapCustomKeyDriver" />
       <module name="DSA-2024" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.java8.oops.*" />
+          <option name="PATTERN" value="org.example.java8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -191,19 +190,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.ComparatorPractice" />
       <item itemvalue="Application.HashMapCustomKeyDriver" />
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Inheritance" />
       <item itemvalue="Application.Polymorphism_2" />
       <item itemvalue="Application.ThisKeyword" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ComparatorPractice" />
         <item itemvalue="Application.HashMapCustomKeyDriver" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.ThisKeyword" />
         <item itemvalue="Application.Polymorphism_2" />
-        <item itemvalue="Application.Inheritance" />
       </list>
     </recent_temporary>
   </component>
@@ -304,7 +303,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731581402560</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="latest commit">
+      <option name="closed" value="true" />
+      <created>1731839691611</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1731839691611</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -335,7 +342,8 @@
     <MESSAGE value="lambda &amp; threads example" />
     <MESSAGE value="polymorphism basics" />
     <MESSAGE value="More OOPS code" />
-    <option name="LAST_COMMIT_MESSAGE" value="More OOPS code" />
+    <MESSAGE value="latest commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="latest commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
