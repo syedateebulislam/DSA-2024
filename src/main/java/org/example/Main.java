@@ -146,36 +146,52 @@ public class Main {
 */
 
 
-        Employee e1 = new Employee();
-        e1.setName("ateeb");
-        e1.setSalary(100);
+        Employee e11 = new Employee("abc",101);
+        Employee e22 = new Employee("abc",101);
 
-        Employee e2 = new Employee();
-        e2.setName("arif");
-        e2.setSalary(200);
+        HashSet<Employee> h1 = new HashSet<>();
+        h1.add(e11);
+        h1.add(e22);
 
-        Employee e3 = new Employee();
-        e3.setName("akib");
-        e3.setSalary(300);
+        System.out.println(h1.size());
 
-        Employee e4 = new Employee();
-        e4.setName("shobhit");
-        e4.setSalary(400);
+        HashSet<Integer> h2 = new HashSet<>();
+        h2.add(1);
+        h2.add(1);
 
-        List<Employee> l1 = new ArrayList<>();
-        l1.add(e1);
-        l1.add(e2);
-        l1.add(e3);
-        l1.add(e4);
+        System.out.println(h2.size());
 
-//        l1.stream()
-//                .sorted((x1,x2)-> (x1.getSalary()<x2.getSalary())? 1:(x1.getSalary()<x2.getSalary())? 0:-1)
-//                .forEach(System.out::println);
 
-        Map<?, ?> m = l1.stream()
-                .collect(Collectors.partitioningBy(x -> x.getSalary() > 200));
-
-        System.out.println(m);
+//        Employee e1 = new Employee();
+//        e1.setName("ateeb");
+//        e1.setSalary(100);
+//
+//        Employee e2 = new Employee();
+//        e2.setName("arif");
+//        e2.setSalary(200);
+//
+//        Employee e3 = new Employee();
+//        e3.setName("akib");
+//        e3.setSalary(300);
+//
+//        Employee e4 = new Employee();
+//        e4.setName("shobhit");
+//        e4.setSalary(400);
+//
+//        List<Employee> l1 = new ArrayList<>();
+//        l1.add(e1);
+//        l1.add(e2);
+//        l1.add(e3);
+//        l1.add(e4);
+//
+////        l1.stream()
+////                .sorted((x1,x2)-> (x1.getSalary()<x2.getSalary())? 1:(x1.getSalary()<x2.getSalary())? 0:-1)
+////                .forEach(System.out::println);
+//
+//        Map<?, ?> m = l1.stream()
+//                .collect(Collectors.partitioningBy(x -> x.getSalary() > 200));
+//
+//        System.out.println(m);
 
     }
 }
@@ -184,6 +200,11 @@ class Employee{
 
     String name;
     int salary;
+
+    public Employee(String name, int salary) {
+        this.name = name;
+        this.salary = salary;
+    }
 
     @Override
     public String toString() {
