@@ -30,6 +30,8 @@ public class HashMapCustomEmployee{
         return empId;
     }
 
+
+
     //3. override equals method
     @Override
     public boolean equals(Object emp){
@@ -45,5 +47,12 @@ public class HashMapCustomEmployee{
         return Objects.hash(this.getEmpId());
     }
 
+    @Override
+    public String toString() {
+        return "HashMapCustomEmployee{" +
+                "name='" + name + '\'' +
+                ", empId=" + empId +
+                '}';
+    }
 }
 
