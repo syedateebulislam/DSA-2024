@@ -4,7 +4,7 @@ import java.util.Objects;
 
 
 //HashMapCustomEmployee ->
-//1.private final variables
+//1. private final variables
 //2. only getters(due to already final variables)
 //3. override equals method
 //4. override hashCode method
