@@ -185,10 +185,13 @@ public class Main {
         l1.add(e3);
         l1.add(e4);
 
-        l1.stream()
-                .sorted((x1,x2)->
-                        (x1.getSalary()<x2.getSalary())? 1:(x1.getSalary()<x2.getSalary())? 0:-1)
-                .forEach(System.out::println);
+        l1.stream().filter(x->x.getSalary()>200)
+                .map(x->x.getName()).forEach(System.out::println);
+
+//        l1.stream()
+//                .sorted((x1,x2)->
+//                        (x1.getSalary()<x2.getSalary())? 1:(x1.getSalary()<x2.getSalary())? 0:-1)
+//                .forEach(System.out::println);
 
 
 //        Map<?, ?> m = l1.stream()

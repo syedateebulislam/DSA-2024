@@ -12,9 +12,9 @@ public class ModifExceptionExample {
 
     public static void main(String[] args) {
 
-        fixedExcep();
+//        fixedExcep();
 
-//        testExcep();
+        testExcep();
 
     }
 
