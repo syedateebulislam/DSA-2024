@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f7c5490-836e-44ea-9ca4-9c493878353f" name="Changes" comment="added design patterns code" />
+    <list default="true" id="6f7c5490-836e-44ea-9ca4-9c493878353f" name="Changes" comment="latest commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern/Builder_Pattern/Process.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern/Builder_Pattern/Process.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern/Builder_Pattern/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern/Builder_Pattern/Vehicle.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -166,11 +170,11 @@
       </method>
     </configuration>
     <configuration name="Process" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.design.Design_Pattern_Practice.Builder_Pattern.Process" />
+      <option name="MAIN_CLASS_NAME" value="org.example.design.Design_Pattern.Builder_Pattern.Process" />
       <module name="DSA-2024" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.design.Design_Pattern_Practice.Builder_Pattern.*" />
+          <option name="PATTERN" value="org.example.design.Design_Pattern.Builder_Pattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -382,7 +386,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733124477968</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="latest commit">
+      <option name="closed" value="true" />
+      <created>1733125489106</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1733125489106</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -413,13 +425,13 @@
     <MESSAGE value="lambda &amp; threads example" />
     <MESSAGE value="polymorphism basics" />
     <MESSAGE value="More OOPS code" />
-    <MESSAGE value="latest commit" />
     <MESSAGE value="practice commit" />
     <MESSAGE value="concurrentModification example" />
     <MESSAGE value="stream ques" />
     <MESSAGE value="latest commits" />
     <MESSAGE value="added design patterns code" />
-    <option name="LAST_COMMIT_MESSAGE" value="added design patterns code" />
+    <MESSAGE value="latest commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="latest commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
