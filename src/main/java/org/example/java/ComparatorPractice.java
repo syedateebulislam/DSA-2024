@@ -28,7 +28,13 @@ public class ComparatorPractice {
 		Comparator<Integer> mycomp = new MyComparator();
 		
 		Collections.sort(nums,mycomp);
+
+
+		//Lambda
+		Collections.sort(nums,(x,y) -> o1%10 - o2%10);
+
 		
+
 		for(int i: nums) {
 			System.out.println(i);
 		}
