@@ -4,21 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f7c5490-836e-44ea-9ca4-9c493878353f" name="Changes" comment="added interview code">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern/creational/Factory_Pattern/Delhivery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern/creational/Factory_Pattern/DeliveryPartner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern/creational/Factory_Pattern/DeliveryPartnerFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern/creational/Factory_Pattern/Dtdc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern/creational/Factory_Pattern/FactoryDriverClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern/creational/Factory_Pattern/IndiaPost.java" afterDir="false" />
+    <list default="true" id="6f7c5490-836e-44ea-9ca4-9c493878353f" name="Changes" comment="factory pattern">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern/creational/singleton/SingletonDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern/creational/singleton/Singleton_Eager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern/creational/singleton/Singleton_Lazy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern/creational/singleton/Singleton_MultithreadingExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern/creational/singleton/Singleton_ReflectionExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern/creational/Factory_Pattern/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern/creational/Factory_Pattern/Bike.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern/creational/Factory_Pattern/Car.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern/creational/Factory_Pattern/Vehicle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern/creational/Factory_Pattern/VehicleFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern/creational/Factory_Pattern/VehicleType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/java/ComparatorPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/java/ComparatorPractice.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,6 +99,7 @@
     "Application.RestoreString.executor": "Run",
     "Application.ReverseLinkList.executor": "Run",
     "Application.Runner.executor": "Run",
+    "Application.SingletonDriver.executor": "Run",
     "Application.SingletonTest.executor": "Run",
     "Application.SortedRotatedArray.executor": "Run",
     "Application.StreamQues.executor": "Run",
@@ -154,26 +147,13 @@
       <recent name="org.example.searching" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FactoryDriverClass">
+  <component name="RunManager" selected="Application.SingletonDriver">
     <configuration name="ComparatorPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.java.ComparatorPractice" />
       <module name="DSA-2024" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.java.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CountStrFreq" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.interview.CountStrFreq" />
-      <module name="DSA-2024" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.interview.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -220,20 +200,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SingletonDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.design.Design_Pattern.creational.singleton.SingletonDriver" />
+      <module name="DSA-2024" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.design.Design_Pattern.creational.singleton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.ComparatorPractice" />
       <item itemvalue="Application.FactoryDriverClass" />
       <item itemvalue="Application.Process" />
-      <item itemvalue="Application.CountStrFreq" />
+      <item itemvalue="Application.SingletonDriver" />
       <item itemvalue="Application.ModifExceptionExample" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SingletonDriver" />
         <item itemvalue="Application.FactoryDriverClass" />
         <item itemvalue="Application.ComparatorPractice" />
         <item itemvalue="Application.ModifExceptionExample" />
         <item itemvalue="Application.Process" />
-        <item itemvalue="Application.CountStrFreq" />
       </list>
     </recent_temporary>
   </component>
@@ -438,7 +431,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733147778355</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="factory pattern">
+      <option name="closed" value="true" />
+      <created>1733149130801</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1733149130801</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -476,7 +477,8 @@
     <MESSAGE value="added design patterns code" />
     <MESSAGE value="latest commit" />
     <MESSAGE value="added interview code" />
-    <option name="LAST_COMMIT_MESSAGE" value="added interview code" />
+    <MESSAGE value="factory pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="factory pattern" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
