@@ -5,13 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f7c5490-836e-44ea-9ca4-9c493878353f" name="Changes" comment="singleton pattern added">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern/behavioral/Observer_Pattern/ConsumerForPayments.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern/behavioral/Observer_Pattern/KafkaExampleDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern/behavioral/Observer_Pattern/KafkaTopicForPayments.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern/creational/singleton/SingletonDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern/creational/singleton/SingletonDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/java/SingletonEager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/java/SingletonExampleDriver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/java/SingletonLazy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/java/SingletonThreadSafe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern/creational/singleton/SingletonThreadSafe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/java/StreamQues.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/java/StreamQues.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern/behavioral/Observer_Pattern/Departments.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern/behavioral/Observer_Pattern/EmpDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern/behavioral/Observer_Pattern/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern/behavioral/Observer_Pattern/EmployeeMgmtSystem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern/behavioral/Observer_Pattern/MyProcess.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,6 +87,7 @@
     "Application.ImmutableTest.executor": "Run",
     "Application.Inheritance.executor": "Run",
     "Application.KadanesAlgo.executor": "Run",
+    "Application.KafkaExampleDriver.executor": "Run",
     "Application.LambdaDriver.executor": "Run",
     "Application.LinkedList.executor": "Run",
     "Application.Main.executor": "Run",
@@ -148,7 +151,7 @@
       <recent name="org.example.searching" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SingletonDriver">
+  <component name="RunManager" selected="Application.KafkaExampleDriver">
     <configuration name="ComparatorPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.java.ComparatorPractice" />
       <module name="DSA-2024" />
@@ -175,12 +178,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ModifExceptionExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.java.ModifExceptionExample" />
+    <configuration name="KafkaExampleDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.design.Design_Pattern.behavioral.Observer_Pattern.KafkaExampleDriver" />
       <module name="DSA-2024" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.design.Design_Pattern.creational.singleton.*" />
+          <option name="PATTERN" value="org.example.design.Design_Pattern.behavioral.Observer_Pattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -217,17 +220,17 @@
     <list>
       <item itemvalue="Application.ComparatorPractice" />
       <item itemvalue="Application.FactoryDriverClass" />
+      <item itemvalue="Application.KafkaExampleDriver" />
       <item itemvalue="Application.SingletonDriver" />
       <item itemvalue="Application.StreamQues" />
-      <item itemvalue="Application.ModifExceptionExample" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.KafkaExampleDriver" />
         <item itemvalue="Application.SingletonDriver" />
         <item itemvalue="Application.StreamQues" />
         <item itemvalue="Application.FactoryDriverClass" />
         <item itemvalue="Application.ComparatorPractice" />
-        <item itemvalue="Application.ModifExceptionExample" />
       </list>
     </recent_temporary>
   </component>
@@ -448,7 +451,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733149789435</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="singleton pattern added">
+      <option name="closed" value="true" />
+      <created>1733151143800</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1733151143800</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="UnknownFeatures">
