@@ -18,7 +18,6 @@ public class Vehicle {
 	
 	//1-private constructor - (abnormal stuff 1 : Take inner class Builder in inp param)
 	private Vehicle(Builder b) {
-		System.out.println("Vehicle constructor called");
 		this.numPlate=b.numPlate;
 		this.modelType=b.modelType;
 		this.modelName=b.modelName;
@@ -34,26 +33,22 @@ public class Vehicle {
 		
 		//3-Normal Builder const - (abnormal stuff 3 : public Builder const with mandatory fields in inp param)
 		public Builder(String numplate) {
-			System.out.println("Builder constructor called");
 			this.numPlate=numplate;
 		}
 		
 		//4-All optional value setters - (abnormal stuff 4 : With return type as inner Builder class)
 		public Builder modelType(String value) {
-			System.out.println("modelType setter called");
 			this.modelType=value;
 			return this;
 		}
 
 		public Builder modelName(String value) {
-			System.out.println("modelName setter called");
 			this.modelName=value;
 			return this;
 		}
 
 		//5-Build constructor - (abnormal stuff 5 : Outer Vehicle class Build const to return Vehicle of current instance type)
 		public Vehicle Build() {
-			System.out.println("Build constructor to call Vehicle Const called");
 			return new Vehicle(this);
 		}
 
