@@ -1,4 +1,4 @@
-package org.example.design.Design_Pattern.Builder_Pattern;
+package org.example.design.Design_Pattern.creational.Builder_Pattern;
 
 public class Process {
 	public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package org.example.design.Design_Pattern.Observer_Pattern;
+package org.example.design.Design_Pattern.behavioral.Observer_Pattern;
 
 public class MyProcess {
 	public static void main(String[] args) {

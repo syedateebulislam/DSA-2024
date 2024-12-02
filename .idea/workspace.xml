@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f7c5490-836e-44ea-9ca4-9c493878353f" name="Changes" comment="latest commit">
+    <list default="true" id="6f7c5490-836e-44ea-9ca4-9c493878353f" name="Changes" comment="added interview code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern/Builder_Pattern/Process.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern/Builder_Pattern/Process.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern/Builder_Pattern/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern/Builder_Pattern/Vehicle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,7 +140,7 @@
       <recent name="org.example.searching" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Process">
+  <component name="RunManager" selected="Application.ModifExceptionExample">
     <configuration name="CountStrFreq" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.interview.CountStrFreq" />
       <module name="DSA-2024" />
@@ -156,12 +154,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+    <configuration name="ModifExceptionExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.java.ModifExceptionExample" />
       <module name="DSA-2024" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.java.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -213,15 +211,15 @@
       <item itemvalue="Application.CountStrFreq" />
       <item itemvalue="Application.StringQue" />
       <item itemvalue="Application.StreamQues" />
-      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.ModifExceptionExample" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ModifExceptionExample" />
         <item itemvalue="Application.Process" />
         <item itemvalue="Application.CountStrFreq" />
         <item itemvalue="Application.StringQue" />
         <item itemvalue="Application.StreamQues" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -402,7 +400,23 @@
       <option name="project" value="LOCAL" />
       <updated>1733128610867</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="latest commit">
+      <option name="closed" value="true" />
+      <created>1733129003217</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1733129003217</updated>
+    </task>
+    <task id="LOCAL-00023" summary="added interview code">
+      <option name="closed" value="true" />
+      <created>1733132962519</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1733132962519</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -439,7 +453,8 @@
     <MESSAGE value="latest commits" />
     <MESSAGE value="added design patterns code" />
     <MESSAGE value="latest commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="latest commit" />
+    <MESSAGE value="added interview code" />
+    <option name="LAST_COMMIT_MESSAGE" value="added interview code" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

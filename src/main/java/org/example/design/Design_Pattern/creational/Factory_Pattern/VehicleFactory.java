@@ -1,4 +1,4 @@
-package org.example.design.Design_Pattern.Factory_Pattern;
+package org.example.design.Design_Pattern.creational.Factory_Pattern;
 
 public class VehicleFactory {
 	
