@@ -31,7 +31,7 @@ public class ComparatorPractice {
 
 
 		//Lambda
-		Collections.sort(nums,(x,y) -> o1%10 - o2%10);
+		Collections.sort(nums,(x,y) -> x%10 - y%10);
 
 		
 
