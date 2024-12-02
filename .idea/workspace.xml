@@ -4,118 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f7c5490-836e-44ea-9ca4-9c493878353f" name="Changes" comment="latest commits">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern_Practice/Builder_Pattern/Process.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern_Practice/Builder_Pattern/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern_Practice/Factory_Pattern/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern_Practice/Factory_Pattern/Bike.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern_Practice/Factory_Pattern/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern_Practice/Factory_Pattern/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern_Practice/Factory_Pattern/VehicleFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern_Practice/Factory_Pattern/VehicleType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern_Practice/Observer_Pattern/Departments.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern_Practice/Observer_Pattern/EmpDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern_Practice/Observer_Pattern/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern_Practice/Observer_Pattern/EmployeeMgmtSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern_Practice/Observer_Pattern/MyProcess.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/SOLID_DIP_Practice/Device_Factory/GeneralProcess.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/SOLID_DIP_Practice/Device_Factory/Laptop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/SOLID_DIP_Practice/Device_Factory/Mobile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/SOLID_DIP_Practice/Device_Manufacturing/DIP_Concept.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/SOLID_DIP_Practice/Device_Manufacturing/DeviceFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/SOLID_ISP_Practice/Adult_Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/SOLID_ISP_Practice/AllFare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/SOLID_ISP_Practice/Concept" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/SOLID_ISP_Practice/FareTrip.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/SOLID_ISP_Practice/KidsPark.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/SOLID_ISP_Practice/Kids_Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/SOLID_ISP_Practice/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/SOLID_ISP_Practice/Ticket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/SOLID_Liskov_Practice/School_With_Liskov/Concept" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/SOLID_Liskov_Practice/School_With_Liskov/MathTeacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/SOLID_Liskov_Practice/School_With_Liskov/School.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/SOLID_Liskov_Practice/School_With_Liskov/SchoolStaff.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/SOLID_Liskov_Practice/School_With_Liskov/ScienceTeacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/SOLID_Liskov_Practice/School_With_Liskov/SubstituteTeacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/SOLID_Liskov_Practice/School_With_Liskov/TeachingStaff.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/SOLID_Liskov_Practice/School_Without_Liskov/MathTeacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/SOLID_Liskov_Practice/School_Without_Liskov/School.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/SOLID_Liskov_Practice/School_Without_Liskov/ScienceTeacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/SOLID_Liskov_Practice/School_Without_Liskov/SubstituteTeacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/SOLID_Liskov_Practice/School_Without_Liskov/Teacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/SOLID_Liskov_Practice/School_Without_Liskov/canNotTeachException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/SOLID_OCP_Practice/AllTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/SOLID_OCP_Practice/ForAudio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/SOLID_OCP_Practice/ForText.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/SOLID_OCP_Practice/ForVideo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/SOLID_OCP_Practice/Hospital_Management/ClientModule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/SOLID_OCP_Practice/Hospital_Management/Doctor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/SOLID_OCP_Practice/Hospital_Management/EmergencyRoomProcess.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/SOLID_OCP_Practice/Hospital_Management/Emp_DAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/SOLID_OCP_Practice/Hospital_Management/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/SOLID_OCP_Practice/Hospital_Management/EmployeeReportFormatter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/SOLID_OCP_Practice/Hospital_Management/ForAudio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/SOLID_OCP_Practice/Hospital_Management/ForText.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/SOLID_OCP_Practice/Hospital_Management/ForVideo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/SOLID_OCP_Practice/Hospital_Management/FormatType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/SOLID_OCP_Practice/Hospital_Management/HospitalManagement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/SOLID_OCP_Practice/Hospital_Management/Nurse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/SOLID_OCP_Practice/Hospital_Management/ReportFormatter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/SOLID_OCP_Practice/Hospital_Management_By_Interface/ClientModule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/SOLID_OCP_Practice/Hospital_Management_By_Interface/Doctor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/SOLID_OCP_Practice/Hospital_Management_By_Interface/EmergencyRoomProcess.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/SOLID_OCP_Practice/Hospital_Management_By_Interface/Emp_DAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/SOLID_OCP_Practice/Hospital_Management_By_Interface/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/SOLID_OCP_Practice/Hospital_Management_By_Interface/EmployeeReportFormatter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/SOLID_OCP_Practice/Hospital_Management_By_Interface/Employee_Duties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/SOLID_OCP_Practice/Hospital_Management_By_Interface/FormatType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/SOLID_OCP_Practice/Hospital_Management_By_Interface/HospitalManagement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/SOLID_OCP_Practice/Hospital_Management_By_Interface/Nurse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/SOLID_OCP_Practice/Hospital_Management_By_Interface/ReportFormatter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/SOLID_OCP_Practice/MobileOS/Apple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/SOLID_OCP_Practice/MobileOS/OS_Shell.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/SOLID_OCP_Practice/MobileOS/Realme.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/SOLID_OCP_Practice/MobileOS/System_Process.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/SOLID_OCP_Practice/MobileOS/TaskManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/SOLID_OCP_Practice/RemoteControlHW/Appliance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/SOLID_OCP_Practice/RemoteControlHW/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/SOLID_OCP_Practice/RemoteControlHW/RemoteControl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/SOLID_OCP_Practice/RemoteControlHW/Tv.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/SOLID_OCP_Practice/RemoteControlHW/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/SOLID_SRP_Practice/With_SRP/Alarm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/SOLID_SRP_Practice/With_SRP/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/SOLID_SRP_Practice/With_SRP/OfficeAlarm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/SOLID_SRP_Practice/With_SRP/TimeLogs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/SOLID_SRP_Practice/Without_SRP/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/SOLID_SRP_Practice/Without_SRP/OfficeAlarm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/java8/ComparatorPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/java/ComparatorPractice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/java8/CustomException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/java/CustomException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/java8/HashMapCustomEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/java/HashMapCustomEmployee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/java8/HashMapCustomKeyDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/java/HashMapCustomKeyDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/java8/ImmutableClockClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/java/ImmutableClockClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/java8/ImmutableExampleDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/java/ImmutableExampleDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/java8/LambdaDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/java/LambdaDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/java8/LambdaExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/java/LambdaExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/java8/ModifExceptionExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/java/ModifExceptionExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/java8/SingletonEager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/java/SingletonEager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/java8/SingletonExampleDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/java/SingletonExampleDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/java8/SingletonLazy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/java/SingletonLazy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/java8/SingletonThreadSafe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/java/SingletonThreadSafe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/java8/StreamQues.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/java/StreamQues.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/java8/ThreadByClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/java/ThreadByClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/java8/ThreadByIntf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/java/ThreadByIntf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/java8/oops/Abstraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/java/oops/Abstraction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/java8/oops/Encapsulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/java/oops/Encapsulation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/java8/oops/EncapulationHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/java/oops/EncapulationHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/java8/oops/Inheritance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/java/oops/Inheritance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/java8/oops/Polymorphism_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/java/oops/Polymorphism_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/java8/oops/Polymorphism_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/java/oops/Polymorphism_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/java8/oops/ThisKeyword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/java/oops/ThisKeyword.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/java8/oops/notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/java/oops/notes.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/practice/HashMapCustomKey.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/practice/HashMapCustomKey.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/practice/HashMapCustomKeyDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/practice/HashMapCustomKeyDriver.java" afterDir="false" />
-    </list>
+    <list default="true" id="6f7c5490-836e-44ea-9ca4-9c493878353f" name="Changes" comment="added design patterns code" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -217,6 +106,8 @@
     "Application.ZerosAndOnes.executor": "Run",
     "Application.org.example.practice.HashMapCustomKeyDriver.executor": "Run",
     "Application.org.example.sorting.MergeSort.executor": "Run",
+    "Maven.DSA-2024 [clean].executor": "Run",
+    "Maven.DSA-2024 [compile].executor": "Run",
     "Maven.testadil [clean,install].executor": "Run",
     "Maven.testadil [clean].executor": "Run",
     "Maven.testadil [install].executor": "Run",
@@ -483,7 +374,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733060976123</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="added design patterns code">
+      <option name="closed" value="true" />
+      <created>1733124477968</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1733124477968</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -519,7 +418,8 @@
     <MESSAGE value="concurrentModification example" />
     <MESSAGE value="stream ques" />
     <MESSAGE value="latest commits" />
-    <option name="LAST_COMMIT_MESSAGE" value="latest commits" />
+    <MESSAGE value="added design patterns code" />
+    <option name="LAST_COMMIT_MESSAGE" value="added design patterns code" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
