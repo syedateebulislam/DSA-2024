@@ -1,6 +1,6 @@
 package org.example.practice;
 
-import org.example.java8.HashMapCustomEmployee;
+import org.example.java.HashMapCustomEmployee;
 
 import java.util.HashMap;
 import java.util.Map;
