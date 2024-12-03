@@ -6,5 +6,5 @@ Service A -> Already have a controllers which GET/POST JSON data only
 
 Service B -> Already have a controllers which GET/POST XML data only
 
-Service B needs to communicate with service A via existing endpoints?
+Service B needs to communicate with service A via existing endpoints and vise versa?
 

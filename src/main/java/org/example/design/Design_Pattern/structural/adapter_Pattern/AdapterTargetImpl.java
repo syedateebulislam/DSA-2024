@@ -3,37 +3,32 @@ package org.example.design.Design_Pattern.structural.adapter_Pattern;
 import java.util.HashMap;
 
 
-/*
-Note : Commented xml conversion code will be used in other service,
-        where json data is needed to be consumed from this service.
- */
-
 public class AdapterTargetImpl implements AdapterTargetInterface {
-
-//    static HashMap<String, String> xmlToJsonMap = new HashMap<>();
-//    AdapteeXmlDataProcessor xmlProcessor = new AdapteeXmlDataProcessor();
 
     AdapteeJsonDataProcessor jsonProcessor = new AdapteeJsonDataProcessor();
 
+    static HashMap<String, String> xmlToJsonMap = new HashMap<>();
     static HashMap<String, String> jsonToXmlMap = new HashMap<>();
 
     static {
-        jsonToXmlMap.put("name:abc,", "<name>abc<name/>");
-        jsonToXmlMap.put("address:xyz,", "<address>xyz<address/>");
-
-//        xmlToJsonMap.put("<name>abc<name/>", "name:abc,");
-//        xmlToJsonMap.put("<address>xyz<address/>", "address:xyz,");
+        jsonToXmlMap.put("response:{transactionStatus:Success}", "<response><transactionStatus>Success<transactionStatus/><response/>");
+        xmlToJsonMap.put("<request><transactionId>101abc<transactionId/><request/>", "request:{transactionId:101abc}");
     }
 
 
     @Override
-    public String convertData(String data, String requiredOutputLanguage) {
+    public String convertData(String data, String inputDataLanguage, String outputDataLanguage) {
         String output = "";
 
-        if (requiredOutputLanguage.equalsIgnoreCase("xml")) {
-            //json to xml
+        if (outputDataLanguage.equalsIgnoreCase(inputDataLanguage)
+        && (inputDataLanguage.equalsIgnoreCase("xml"))) {
 
-            //listen json from consumer
+            System.out.println("input data : \n"+data);
+
+            //xml to json
+            data = xmlToJson(data);
+
+            //listen json converted xml from consumer
             jsonProcessor.consumeData(data);
 
             //produce json as per inp xml
@@ -42,19 +37,8 @@ public class AdapterTargetImpl implements AdapterTargetInterface {
             //convert produced json to xml
             output = jsonToXml(producedJsonData);
 
+            System.out.println("output data : \n"+output);
         }
-//        else{
-//            //xml to json
-//
-//            //listen xml from consumer
-//            xmlProcessor.consumeData(data);
-//
-//            //produce xml as per inp json
-//            String producedXmlData = xmlProcessor.produceData(data);
-//
-//            //convert produced xml into json
-//            output = xmlToJson(producedXmlData);
-//        }
 
         return output;
     }
@@ -63,8 +47,8 @@ public class AdapterTargetImpl implements AdapterTargetInterface {
         return jsonToXmlMap.get(str);
     }
 
-//    public String xmlToJson(String str) {
-//        return xmlToJsonMap.get(str);
-//    }
+    public String xmlToJson(String str) {
+        return xmlToJsonMap.get(str);
+    }
 
 }

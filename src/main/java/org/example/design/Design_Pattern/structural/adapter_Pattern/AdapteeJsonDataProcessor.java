@@ -1,15 +1,19 @@
 package org.example.design.Design_Pattern.structural.adapter_Pattern;
 
-public class AdapteeJsonDataProcessor implements AdapteeJsonProcessor {
+public class AdapteeJsonDataProcessor{
 
-    @Override
     public void consumeData(String data) {
-        System.out.println("\nconsuming JSON data : "+data);
+        System.out.println("consuming JSON data : "+data);
     }
 
-    @Override
     public String produceData(String data) {
-        System.out.println("producing JSON data...");
+
+        //business logic written as per txn ID
+        if(data.contains("transactionId:101abc")){
+            data = "response:{transactionStatus:Success}";
+        }
+        System.out.println("producing JSON data : "+data);
+
         return data;
     }
 
