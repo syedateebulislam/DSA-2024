@@ -4,16 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f7c5490-836e-44ea-9ca4-9c493878353f" name="Changes" comment="singleton pattern added">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern/behavioral/Observer_Pattern/ConsumerForPayments.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern/behavioral/Observer_Pattern/KafkaExampleDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern/behavioral/Observer_Pattern/KafkaTopicForPayments.java" afterDir="false" />
+    <list default="true" id="6f7c5490-836e-44ea-9ca4-9c493878353f" name="Changes" comment="Observer pattern added">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern/structural/adapter_Pattern/AdapterDriverClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern/structural/adapter_Pattern/AppDataProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern/structural/adapter_Pattern/DataProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern/structural/adapter_Pattern/JsonDataProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern/structural/adapter_Pattern/JsonProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern/structural/adapter_Pattern/XmlDataProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern/structural/adapter_Pattern/XmlProcessor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern/behavioral/Observer_Pattern/Departments.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern/behavioral/Observer_Pattern/EmpDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern/behavioral/Observer_Pattern/Employee.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern/behavioral/Observer_Pattern/EmployeeMgmtSystem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern/behavioral/Observer_Pattern/MyProcess.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +64,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AdapterDriverClass.executor": "Run",
     "Application.BTLeftView.executor": "Run",
     "Application.BinarySearch.executor": "Run",
     "Application.BinaryTreeCreation.executor": "Run",
@@ -151,13 +151,13 @@
       <recent name="org.example.searching" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.KafkaExampleDriver">
-    <configuration name="ComparatorPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.java.ComparatorPractice" />
+  <component name="RunManager" selected="Application.AdapterDriverClass">
+    <configuration name="AdapterDriverClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.design.Design_Pattern.structural.adapter_Pattern.AdapterDriverClass" />
       <module name="DSA-2024" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.design.Design_Pattern.creational.singleton.*" />
+          <option name="PATTERN" value="org.example.design.Design_Pattern.structural.adapter_Pattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -218,7 +218,7 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ComparatorPractice" />
+      <item itemvalue="Application.AdapterDriverClass" />
       <item itemvalue="Application.FactoryDriverClass" />
       <item itemvalue="Application.KafkaExampleDriver" />
       <item itemvalue="Application.SingletonDriver" />
@@ -226,11 +226,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AdapterDriverClass" />
         <item itemvalue="Application.KafkaExampleDriver" />
         <item itemvalue="Application.SingletonDriver" />
         <item itemvalue="Application.StreamQues" />
         <item itemvalue="Application.FactoryDriverClass" />
-        <item itemvalue="Application.ComparatorPractice" />
       </list>
     </recent_temporary>
   </component>
@@ -459,7 +459,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733151143800</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Observer pattern added">
+      <option name="closed" value="true" />
+      <created>1733154106194</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1733154106194</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -499,7 +507,8 @@
     <MESSAGE value="added interview code" />
     <MESSAGE value="factory pattern" />
     <MESSAGE value="singleton pattern added" />
-    <option name="LAST_COMMIT_MESSAGE" value="singleton pattern added" />
+    <MESSAGE value="Observer pattern added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Observer pattern added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
