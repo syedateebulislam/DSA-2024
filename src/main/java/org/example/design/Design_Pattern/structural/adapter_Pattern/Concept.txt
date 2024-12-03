@@ -8,3 +8,27 @@ Service B -> Already have a controllers which GET/POST XML data only
 
 Service B needs to communicate with service A via existing endpoints and vise versa?
 
+
+Components of Adapter Design Pattern -->>
+
+Below are the components of adapter design pattern:
+
+Target Interface:
+Defines the interface expected by the client.
+It represents the set of operations that the client code can use.
+It’s the common interface that the client code interacts with.
+
+Adaptee:
+The existing class or system with an incompatible interface that needs to be integrated into the new system.
+It’s the class or system that the client code cannot directly use due to interface mismatches.
+
+Adapter:
+A class that implements the target interface and internally uses an instance of the adaptee
+to make it compatible with the target interface. It acts as a bridge,
+adapting the interface of the adaptee to match the target interface.
+
+Client:
+The code that uses the target interface to interact with objects.
+It remains unaware of the specific implementation details of the adaptee and the adapter.
+It’s the code that benefits from the integration of the adaptee into the system through the adapter.
+

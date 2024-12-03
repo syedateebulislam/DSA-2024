@@ -4,15 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f7c5490-836e-44ea-9ca4-9c493878353f" name="Changes" comment="Adapter pattern added">
+    <list default="true" id="6f7c5490-836e-44ea-9ca4-9c493878353f" name="Changes" comment="Adapter pattern refactored for Service A only">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern/structural/adapter_Pattern/AdapteeJsonDataProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern/structural/adapter_Pattern/AdapteeJsonDataProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern/structural/adapter_Pattern/AdapteeJsonProcessor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern/structural/adapter_Pattern/AdapteeXmlDataProcessor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern/structural/adapter_Pattern/AdapteeXmlProcessor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern/structural/adapter_Pattern/AdapterTargetImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern/structural/adapter_Pattern/AdapterTargetImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern/structural/adapter_Pattern/AdapterTargetInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern/structural/adapter_Pattern/AdapterTargetInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern/structural/adapter_Pattern/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern/structural/adapter_Pattern/Client.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern/structural/adapter_Pattern/Concept.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern/structural/adapter_Pattern/Concept.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -485,7 +478,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733240162484</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Adapter pattern refactored for Service A only">
+      <option name="closed" value="true" />
+      <created>1733242519419</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1733242519419</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -527,7 +528,8 @@
     <MESSAGE value="singleton pattern added" />
     <MESSAGE value="Observer pattern added" />
     <MESSAGE value="Adapter pattern added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adapter pattern added" />
+    <MESSAGE value="Adapter pattern refactored for Service A only" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adapter pattern refactored for Service A only" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
