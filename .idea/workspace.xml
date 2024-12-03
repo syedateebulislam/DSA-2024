@@ -4,15 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f7c5490-836e-44ea-9ca4-9c493878353f" name="Changes" comment="Observer pattern added">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern/structural/adapter_Pattern/AdapterDriverClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern/structural/adapter_Pattern/AppDataProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern/structural/adapter_Pattern/DataProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern/structural/adapter_Pattern/JsonDataProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern/structural/adapter_Pattern/JsonProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern/structural/adapter_Pattern/XmlDataProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern/structural/adapter_Pattern/XmlProcessor.java" afterDir="false" />
+    <list default="true" id="6f7c5490-836e-44ea-9ca4-9c493878353f" name="Changes" comment="Adapter pattern added">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern/structural/adapter_Pattern/AdapterTargetImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern/structural/adapter_Pattern/Concept.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern/structural/adapter_Pattern/AdapterDriverClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern/structural/adapter_Pattern/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern/structural/adapter_Pattern/AppDataProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern/structural/adapter_Pattern/DataProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern/structural/adapter_Pattern/AdapterTargetInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern/structural/adapter_Pattern/JsonDataProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern/structural/adapter_Pattern/AdapteeJsonProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern/structural/adapter_Pattern/JsonProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern/structural/adapter_Pattern/AdapteeJsonDataProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern/structural/adapter_Pattern/XmlDataProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern/structural/adapter_Pattern/AdapteeXmlProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern/structural/adapter_Pattern/XmlProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern/structural/adapter_Pattern/AdapteeXmlDataProcessor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +71,7 @@
     "Application.BinarySearch.executor": "Run",
     "Application.BinaryTreeCreation.executor": "Run",
     "Application.BinaryTreeViews.executor": "Run",
+    "Application.Client.executor": "Run",
     "Application.CollectionTest.executor": "Run",
     "Application.ComparatorPractice.executor": "Run",
     "Application.ConcurrentModifExcepExample.executor": "Run",
@@ -151,13 +154,13 @@
       <recent name="org.example.searching" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AdapterDriverClass">
+  <component name="RunManager" selected="Application.Client">
     <configuration name="AdapterDriverClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.design.Design_Pattern.structural.adapter_Pattern.AdapterDriverClass" />
       <module name="DSA-2024" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.design.Design_Pattern.structural.adapter_Pattern.*" />
+          <option name="PATTERN" value="org.example.design.Design_Pattern.structural.adapter_Pattern.AdapterTargetInterface" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,12 +168,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FactoryDriverClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.design.Design_Pattern.creational.Factory_Pattern.FactoryDriverClass" />
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.design.Design_Pattern.structural.adapter_Pattern.Client" />
       <module name="DSA-2024" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.design.Design_Pattern.creational.Factory_Pattern.*" />
+          <option name="PATTERN" value="org.example.design.Design_Pattern.structural.adapter_Pattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -219,18 +222,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.AdapterDriverClass" />
-      <item itemvalue="Application.FactoryDriverClass" />
+      <item itemvalue="Application.Client" />
       <item itemvalue="Application.KafkaExampleDriver" />
       <item itemvalue="Application.SingletonDriver" />
       <item itemvalue="Application.StreamQues" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client" />
         <item itemvalue="Application.AdapterDriverClass" />
         <item itemvalue="Application.KafkaExampleDriver" />
         <item itemvalue="Application.SingletonDriver" />
         <item itemvalue="Application.StreamQues" />
-        <item itemvalue="Application.FactoryDriverClass" />
       </list>
     </recent_temporary>
   </component>
@@ -467,7 +470,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733154106194</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Adapter pattern added">
+      <option name="closed" value="true" />
+      <created>1733220895703</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1733220895703</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -508,7 +519,8 @@
     <MESSAGE value="factory pattern" />
     <MESSAGE value="singleton pattern added" />
     <MESSAGE value="Observer pattern added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Observer pattern added" />
+    <MESSAGE value="Adapter pattern added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adapter pattern added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
