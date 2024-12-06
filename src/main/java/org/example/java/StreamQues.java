@@ -26,58 +26,66 @@ public class StreamQues {
 //        System.out.println(i);
 
 
-//        List<?> m1 = "abc"
-//                .chars()
-//                .mapToObj(c->(char)c)
-//                .collect(Collectors.toList());
-//        System.out.println(m1);
+        List<?> m1 = "abc"
+                .chars()
+                .mapToObj(c->(char)c)
+                .collect(Collectors.toList());
+        System.out.println(m1);
 
 
-        Map<String, Integer> salaryMap = new HashMap<>();
-        salaryMap.put("Alex", 200);
-        salaryMap.put("Broski", 300);
-        salaryMap.put("Bunny", 200);
-        salaryMap.put("Tim", 500);
-        salaryMap.put("Steve", 500);
-
-//        salaryMap.values().stream().forEach(System.out::println);
-
-
-        System.out.println("----------------");
-
-        // Find the second-highest salary
-        Optional<Integer> secondHighestSalary = salaryMap.values().stream()
-                .distinct()                         // Remove duplicates
-                .sorted(Comparator.reverseOrder())  // Sort in descending order
-                .skip(1)                            // Skip the first element (highest salary)
-                .findFirst();                       // Get the second element
-
-        // Print the result
-        if(secondHighestSalary.isPresent()) {
-            System.out.println("Second highest salary is: " + secondHighestSalary.get());
-        }else{
-            System.out.println("No second highest salary found.");
-        }
+//        Map<String, Integer> salaryMap = new HashMap<>();
+//        salaryMap.put("Alex", 200);
+//        salaryMap.put("Broski", 300);
+//        salaryMap.put("Bunny", 200);
+//        salaryMap.put("Tim", 500);
+//        salaryMap.put("Steve", 500);
+//
+////        salaryMap.values().stream().forEach(System.out::println);
+//
+//
+//        System.out.println("----------------");
+//
+//        // Find the second-highest salary
+//        Optional<Integer> secondHighestSalary = salaryMap.values().stream()
+//                .distinct()                         // Remove duplicates
+//                .sorted(Comparator.reverseOrder())  // Sort in descending order
+//                .skip(1)                            // Skip the first element (highest salary)
+//                .findFirst();                       // Get the second element
+//
+//        // Print the result
+//        if(secondHighestSalary.isPresent()) {
+//            System.out.println("Second highest salary is: " + secondHighestSalary.get());
+//        }else{
+//            System.out.println("No second highest salary found.");
+//        }
 
 
         //---------
 
 
-        List<Integer> l1 = Arrays.asList(3,1,5,2,4,6,1,2);
-        StreamQues c1 = new StreamQues();
+//        List<Integer> l1 = Arrays.asList(3,1,5,2,4,6,1,2);
+//        StreamQues c1 = new StreamQues();
+//
+//        //c1.forEachMethod(l1);
+//        //c1.filterMethod(l1);
+//        //c1.mapMethod(l1);
+//        //c1.collectMethod(l1);
+//        //c1.countMethod(l1);
+//        //c1.sortedMethod(l1);
+//        //c1.sortedCompMethod(l1);
+//        //c1.minMethod(l1);
+//        //c1.maxMethod(l1);
+//        //c1.nagInternal(l1);
+//        c1.tryInt(l1);
 
-        //c1.forEachMethod(l1);
-        //c1.filterMethod(l1);
-        //c1.mapMethod(l1);
-        //c1.collectMethod(l1);
-        //c1.countMethod(l1);
-        //c1.sortedMethod(l1);
-        //c1.sortedCompMethod(l1);
-        //c1.minMethod(l1);
-        //c1.maxMethod(l1);
-        //c1.nagInternal(l1);
-        c1.tryInt(l1);
+        String str = "abcabc";
 
+        Map<?,?> m2 = str.chars().mapToObj(x->(char)x).collect(Collectors.groupingBy(x->x,Collectors.counting()));
+        System.out.println(m2);
+
+        List<Integer> l2 = Arrays.asList(2,4,3,5,1);
+
+        l2.stream().sorted((e1,e2)->(e1>e2) ? -1 : (e1<e2) ? 1:0).forEach(System.out::println);
     }
 
     static void groupByTest(List<Integer> intList) {
