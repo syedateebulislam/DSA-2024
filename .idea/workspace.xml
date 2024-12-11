@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f7c5490-836e-44ea-9ca4-9c493878353f" name="Changes" comment="accolite interview">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/java/FunctionalInterfaceExample.java" afterDir="false" />
+    <list default="true" id="6f7c5490-836e-44ea-9ca4-9c493878353f" name="Changes" comment="added interview ques">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/java/FunctionalInterfaceExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/java/FunctionalInterfaceExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,85 +56,86 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.AdapterDriverClass.executor": "Run",
-    "Application.BTLeftView.executor": "Run",
-    "Application.BinarySearch.executor": "Run",
-    "Application.BinaryTreeCreation.executor": "Run",
-    "Application.BinaryTreeViews.executor": "Run",
-    "Application.Client.executor": "Run",
-    "Application.CollectionTest.executor": "Run",
-    "Application.ComparatorPractice.executor": "Run",
-    "Application.ConcurrentModifExcepExample.executor": "Run",
-    "Application.CountStrFreq.executor": "Run",
-    "Application.DetectAnagram.executor": "Run",
-    "Application.EmployeeMapExample.executor": "Run",
-    "Application.ExceptionTestAdvanced.executor": "Run",
-    "Application.FactoryDriverClass.executor": "Run",
-    "Application.FunctionalInterfaceExample.executor": "Run",
-    "Application.GFG.executor": "Run",
-    "Application.GfgMergeSort.executor": "Run",
-    "Application.HashMapCustomKeyClass.executor": "Run",
-    "Application.HashMapCustomKeyDriver.executor": "Run",
-    "Application.HashMapTestAdvanced.executor": "Run",
-    "Application.ImmutClassExmDriver.executor": "Run",
-    "Application.ImmutableExampleDriver.executor": "Run",
-    "Application.ImmutableTest.executor": "Run",
-    "Application.Inheritance.executor": "Run",
-    "Application.KadanesAlgo.executor": "Run",
-    "Application.KafkaExampleDriver.executor": "Run",
-    "Application.LambdaDriver.executor": "Run",
-    "Application.LinkedList.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.MergeSort.executor": "Run",
-    "Application.MergeSortTry.executor": "Run",
-    "Application.ModifExceptionExample.executor": "Run",
-    "Application.NextPermutation.executor": "Run",
-    "Application.Polymorphism_1.executor": "Run",
-    "Application.Polymorphism_2.executor": "Run",
-    "Application.Process.executor": "Run",
-    "Application.QuickSort.executor": "Run",
-    "Application.ReplaceZeroToEnd.executor": "Run",
-    "Application.RestoreString.executor": "Run",
-    "Application.ReverseLinkList.executor": "Run",
-    "Application.Runner.executor": "Run",
-    "Application.SingletonDriver.executor": "Run",
-    "Application.SingletonTest.executor": "Run",
-    "Application.SortedRotatedArray.executor": "Run",
-    "Application.StreamQues.executor": "Run",
-    "Application.StringQue.executor": "Run",
-    "Application.StringTest.executor": "Run",
-    "Application.Test1234.executor": "Run",
-    "Application.TestAccolite.executor": "Run",
-    "Application.TestAccolite2.executor": "Run",
-    "Application.TestProgram.executor": "Run",
-    "Application.TestadilApplication.executor": "Run",
-    "Application.ThisKeyword.executor": "Run",
-    "Application.ThreadByClass.executor": "Run",
-    "Application.ThreadByIntf.executor": "Run",
-    "Application.ThreeSum.executor": "Run",
-    "Application.Try.executor": "Run",
-    "Application.ZerosAndOnes.executor": "Run",
-    "Application.org.example.practice.HashMapCustomKeyDriver.executor": "Run",
-    "Application.org.example.sorting.MergeSort.executor": "Run",
-    "Maven.DSA-2024 [clean].executor": "Run",
-    "Maven.DSA-2024 [compile].executor": "Run",
-    "Maven.testadil [clean,install].executor": "Run",
-    "Maven.testadil [clean].executor": "Run",
-    "Maven.testadil [install].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/syeda/Desktop/Ateeb/Code-Tech-and-Tools/Workspaces/Java-Workspace/IntelliJ-Worksapce/DSA-2024",
-    "onboarding.tips.debug.path": "C:/Users/syeda/Desktop/Ateeb/Code-Tech-and-Tools/Workspaces/Java-Workspace/IntelliJ-Worksapce/DSA-2024/src/main/java/org/example/Main.java",
-    "settings.editor.selected.configurable": "advanced.settings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AdapterDriverClass.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BTLeftView.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BinarySearch.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BinaryTreeCreation.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BinaryTreeViews.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CollectionTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ComparatorPractice.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ConcurrentModifExcepExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CountStrFreq.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DetectAnagram.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EmployeeMapExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExceptionTestAdvanced.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FactoryDriverClass.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FunctionalInterfaceExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GFG.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GfgMergeSort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HashMapCustomKeyClass.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HashMapCustomKeyDriver.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HashMapTestAdvanced.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ImmutClassExmDriver.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ImmutableExampleDriver.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ImmutableTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Inheritance.executor&quot;: &quot;Run&quot;,
+    &quot;Application.KadanesAlgo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.KafkaExampleDriver.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LambdaDriver.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LinkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MergeSort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MergeSortTry.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ModifExceptionExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NextPermutation.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Polymorphism_1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Polymorphism_2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Process.executor&quot;: &quot;Run&quot;,
+    &quot;Application.QuickSort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReplaceZeroToEnd.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RestoreString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseLinkList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Runner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SingletonDriver.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SingletonTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SortedRotatedArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StreamQues.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringQue.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SynechronL3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test1234.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestAccolite.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestAccolite2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestProgram.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestadilApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThisKeyword.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadByClass.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadByIntf.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreeSum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Try.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ZerosAndOnes.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.example.practice.HashMapCustomKeyDriver.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.example.sorting.MergeSort.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.DSA-2024 [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.DSA-2024 [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.testadil [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.testadil [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.testadil [install].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/syeda/Desktop/Ateeb/Code-Tech-and-Tools/Workspaces/Java-Workspace/IntelliJ-Worksapce/DSA-2024&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/syeda/Desktop/Ateeb/Code-Tech-and-Tools/Workspaces/Java-Workspace/IntelliJ-Worksapce/DSA-2024/src/main/java/org/example/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\syeda\Desktop\Ateeb\Code-Tech-and-Tools\Workspaces\Java-Workspace\IntelliJ-Worksapce\DSA-2024\src\main\java\org\example\design" />
@@ -164,12 +165,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamQues" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.java.StreamQues" />
+    <configuration name="SynechronL3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.practice.SynechronL3" />
       <module name="DSA-2024" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.java.*" />
+          <option name="PATTERN" value="org.example.practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -217,19 +218,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.SynechronL3" />
       <item itemvalue="Application.FunctionalInterfaceExample" />
       <item itemvalue="Application.Test1234" />
       <item itemvalue="Application.TestAccolite" />
       <item itemvalue="Application.TestAccolite2" />
-      <item itemvalue="Application.StreamQues" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.FunctionalInterfaceExample" />
+        <item itemvalue="Application.SynechronL3" />
         <item itemvalue="Application.Test1234" />
         <item itemvalue="Application.TestAccolite" />
         <item itemvalue="Application.TestAccolite2" />
-        <item itemvalue="Application.StreamQues" />
       </list>
     </recent_temporary>
   </component>
@@ -506,7 +507,23 @@
       <option name="project" value="LOCAL" />
       <updated>1733479518886</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="functional interface added">
+      <option name="closed" value="true" />
+      <created>1733728484022</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1733728484022</updated>
+    </task>
+    <task id="LOCAL-00035" summary="added interview ques">
+      <option name="closed" value="true" />
+      <created>1733923849252</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1733923849252</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -551,7 +568,9 @@
     <MESSAGE value="Adapter pattern refactored for Service A only" />
     <MESSAGE value="Adapter pattern concept added" />
     <MESSAGE value="accolite interview" />
-    <option name="LAST_COMMIT_MESSAGE" value="accolite interview" />
+    <MESSAGE value="functional interface added" />
+    <MESSAGE value="added interview ques" />
+    <option name="LAST_COMMIT_MESSAGE" value="added interview ques" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -10,19 +10,27 @@ Functional interface - total 4 types
 
 
 import java.util.function.Consumer;
+import java.util.function.Function;
 import java.util.function.Predicate;
+import java.util.function.Supplier;
 
 public class FunctionalInterfaceExample {
 
     public static void main(String[] args) {
 
-//        testPredicateInterface("abc");
+        //1. Predicate - test method -  boolean results
+        testPredicateInterface("abc");
 
+        //2. Consumer - accept method - no results(can modify data)
 //        TestEmp e1 = new TestEmp("John");
 //        testConsumerInterface(e1);
 
+        //3. Function - apply method -  both inp & out
+//        String s = "abc";
+//        System.out.println(testFunctionInterface(s));
 
-
+        //4. Supplier - get method -    No inp & only out
+//        System.out.println(testSupplierInterface());
 
 
     }
@@ -39,9 +47,14 @@ public class FunctionalInterfaceExample {
     }
 
 
-    static TestEmp testPredicateInterface1(TestEmp s){
-        s.setName(s.getName().concat("testtttt"));
-        return s;
+    static String  testFunctionInterface(String s){
+        Function<String,String > funcIntf = (x)-> s.concat(" method lambda executed");
+        return funcIntf.apply(s);
+    }
+
+    static Double  testSupplierInterface(){
+        Supplier<Double> number = () -> Math.random();
+        return number.get();
     }
 
 }
