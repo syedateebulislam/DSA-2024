@@ -1,7 +1,6 @@
-package org.example.practice;
+package org.example.interview;
 
 
-import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
 
