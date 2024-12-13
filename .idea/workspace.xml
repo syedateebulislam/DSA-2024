@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f7c5490-836e-44ea-9ca4-9c493878353f" name="Changes" comment="added interview ques">
+    <list default="true" id="6f7c5490-836e-44ea-9ca4-9c493878353f" name="Changes" comment="added all 4 functional interfaces">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/interview/test/SynechronAmexL4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/java/FunctionalInterfaceExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/java/FunctionalInterfaceExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +84,7 @@
     &quot;Application.Inheritance.executor&quot;: &quot;Run&quot;,
     &quot;Application.KadanesAlgo.executor&quot;: &quot;Run&quot;,
     &quot;Application.KafkaExampleDriver.executor&quot;: &quot;Run&quot;,
+    &quot;Application.L4.executor&quot;: &quot;Run&quot;,
     &quot;Application.LambdaDriver.executor&quot;: &quot;Run&quot;,
     &quot;Application.LinkedList.executor&quot;: &quot;Run&quot;,
     &quot;Application.Main.executor&quot;: &quot;Run&quot;,
@@ -151,13 +152,26 @@
       <recent name="org.example.searching" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FunctionalInterfaceExample">
+  <component name="RunManager" selected="Application.SynechronAmexL4">
     <configuration name="FunctionalInterfaceExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.java.FunctionalInterfaceExample" />
       <module name="DSA-2024" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SynechronAmexL4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.interview.test.SynechronAmexL4" />
+      <module name="DSA-2024" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.interview.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -204,33 +218,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestAccolite2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.interview.TestAccolite2" />
-      <module name="DSA-2024" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.interview.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.SynechronL3" />
       <item itemvalue="Application.FunctionalInterfaceExample" />
       <item itemvalue="Application.Test1234" />
       <item itemvalue="Application.TestAccolite" />
-      <item itemvalue="Application.TestAccolite2" />
+      <item itemvalue="Application.SynechronAmexL4" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SynechronAmexL4" />
         <item itemvalue="Application.FunctionalInterfaceExample" />
         <item itemvalue="Application.SynechronL3" />
         <item itemvalue="Application.Test1234" />
         <item itemvalue="Application.TestAccolite" />
-        <item itemvalue="Application.TestAccolite2" />
       </list>
     </recent_temporary>
   </component>
@@ -523,7 +524,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733923849252</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="added all 4 functional interfaces">
+      <option name="closed" value="true" />
+      <created>1733924619135</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1733924619135</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -570,7 +579,8 @@
     <MESSAGE value="accolite interview" />
     <MESSAGE value="functional interface added" />
     <MESSAGE value="added interview ques" />
-    <option name="LAST_COMMIT_MESSAGE" value="added interview ques" />
+    <MESSAGE value="added all 4 functional interfaces" />
+    <option name="LAST_COMMIT_MESSAGE" value="added all 4 functional interfaces" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
