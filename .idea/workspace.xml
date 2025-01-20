@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f7c5490-836e-44ea-9ca4-9c493878353f" name="Changes" comment="L4 added">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern/structural/facade_pattern/CalculateTax.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern/structural/facade_pattern/CalculateTaxFacade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern/structural/facade_pattern/NewTaxRegime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern/structural/facade_pattern/OldTaxRegime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/design/Design_Pattern/structural/facade_pattern/TaxCalculationService.java" afterDir="false" />
+    <list default="true" id="6f7c5490-836e-44ea-9ca4-9c493878353f" name="Changes" comment="facade design pattern">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dsa/arrays/DupNums.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dsa/strings/LongestCommonsubString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/interview/Test1234.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/practice/SynechronL3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/interview/SynechronL3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +72,7 @@
     "Application.ConcurrentModifExcepExample.executor": "Run",
     "Application.CountStrFreq.executor": "Run",
     "Application.DetectAnagram.executor": "Run",
+    "Application.DupNums.executor": "Run",
     "Application.EmployeeMapExample.executor": "Run",
     "Application.ExceptionTestAdvanced.executor": "Run",
     "Application.FactoryDriverClass.executor": "Run",
@@ -92,6 +91,7 @@
     "Application.L4.executor": "Run",
     "Application.LambdaDriver.executor": "Run",
     "Application.LinkedList.executor": "Run",
+    "Application.LongestCommonsubString.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MergeSort.executor": "Run",
     "Application.MergeSortTry.executor": "Run",
@@ -113,6 +113,7 @@
     "Application.StringTest.executor": "Run",
     "Application.SynechronL3.executor": "Run",
     "Application.TaxCalculationService.executor": "Run",
+    "Application.Test.executor": "Run",
     "Application.Test1234.executor": "Run",
     "Application.TestAccolite.executor": "Run",
     "Application.TestAccolite2.executor": "Run",
@@ -124,6 +125,7 @@
     "Application.ThreeSum.executor": "Run",
     "Application.Try.executor": "Run",
     "Application.ZerosAndOnes.executor": "Run",
+    "Application.org.example.interview.Test1234.executor": "Run",
     "Application.org.example.practice.HashMapCustomKeyDriver.executor": "Run",
     "Application.org.example.sorting.MergeSort.executor": "Run",
     "Maven.DSA-2024 [clean].executor": "Run",
@@ -138,7 +140,7 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/syeda/Desktop/Ateeb/Code-Tech-and-Tools/Workspaces/Java-Workspace/IntelliJ-Worksapce/DSA-2024",
+    "last_opened_file_path": "C:/Users/syeda/Desktop/Ateeb/Code-Tech-and-Tools/Workspaces/Java-Workspace/IntelliJ-Worksapce/unnecessaryproject1",
     "onboarding.tips.debug.path": "C:/Users/syeda/Desktop/Ateeb/Code-Tech-and-Tools/Workspaces/Java-Workspace/IntelliJ-Worksapce/DSA-2024/src/main/java/org/example/Main.java",
     "settings.editor.selected.configurable": "advanced.settings"
   }
@@ -161,13 +163,13 @@
       <recent name="org.example.searching" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TaxCalculationService">
-    <configuration name="FunctionalInterfaceExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.java.FunctionalInterfaceExample" />
+  <component name="RunManager" selected="Application.Test">
+    <configuration name="DupNums" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.dsa.arrays.DupNums" />
       <module name="DSA-2024" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.java.*" />
+          <option name="PATTERN" value="org.example.dsa.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -175,12 +177,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SynechronAmexL4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.interview.test.SynechronAmexL4" />
+    <configuration name="LongestCommonsubString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.dsa.strings.LongestCommonsubString" />
       <module name="DSA-2024" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.interview.test.*" />
+          <option name="PATTERN" value="org.example.dsa.strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -188,12 +190,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SynechronL3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.interview.SynechronL3" />
+    <configuration name="RestoreString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.dsa.arrays.RestoreString" />
       <module name="DSA-2024" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.interview.*" />
+          <option name="PATTERN" value="org.example.dsa.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -201,12 +203,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TaxCalculationService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.design.Design_Pattern.structural.facade_pattern.TaxCalculationService" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Test" />
       <module name="DSA-2024" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.design.Design_Pattern.structural.facade_pattern.*" />
+          <option name="PATTERN" value="org.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -214,8 +216,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test1234" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.practice.Test1234" />
+    <configuration name="org.example.interview.Test1234" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.interview.Test1234" />
       <module name="DSA-2024" />
       <extension name="coverage">
         <pattern>
@@ -228,19 +230,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TaxCalculationService" />
-      <item itemvalue="Application.FunctionalInterfaceExample" />
-      <item itemvalue="Application.SynechronAmexL4" />
-      <item itemvalue="Application.SynechronL3" />
-      <item itemvalue="Application.Test1234" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.LongestCommonsubString" />
+      <item itemvalue="Application.DupNums" />
+      <item itemvalue="Application.RestoreString" />
+      <item itemvalue="Application.org.example.interview.Test1234" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TaxCalculationService" />
-        <item itemvalue="Application.SynechronAmexL4" />
-        <item itemvalue="Application.FunctionalInterfaceExample" />
-        <item itemvalue="Application.SynechronL3" />
-        <item itemvalue="Application.Test1234" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.LongestCommonsubString" />
+        <item itemvalue="Application.RestoreString" />
+        <item itemvalue="Application.DupNums" />
+        <item itemvalue="Application.org.example.interview.Test1234" />
       </list>
     </recent_temporary>
   </component>
@@ -549,7 +551,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734090661514</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="facade design pattern">
+      <option name="closed" value="true" />
+      <created>1734096814442</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1734096814442</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -572,7 +582,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="revLinkedList" />
     <MESSAGE value="leetcode latest que commit" />
     <MESSAGE value="refactored for interview pkg" />
     <MESSAGE value="singleton for interview pkg" />
@@ -597,7 +606,8 @@
     <MESSAGE value="added interview ques" />
     <MESSAGE value="added all 4 functional interfaces" />
     <MESSAGE value="L4 added" />
-    <option name="LAST_COMMIT_MESSAGE" value="L4 added" />
+    <MESSAGE value="facade design pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="facade design pattern" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
